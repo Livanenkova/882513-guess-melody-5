@@ -5,7 +5,7 @@
   "description": "Учебный проект «Угадай мелодию» от HTML Academy",
   "scripts": {
     "build": "webpack --mode production",
-    "eslint": "eslint src/**/*.js",
+    "eslint": "eslint --ext .jsx --ext .js src/",
     "start": "webpack-dev-server",
     "test": "npm run eslint"
   },
